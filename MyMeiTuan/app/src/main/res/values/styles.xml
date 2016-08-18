@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyPopupMenuStytle" parent="Widget.AppCompat.Light.PopupMenu">
+        <!--<item name="android:drawableLeft">@android:drawable/ic_input_add</item>-->
+        <!-- 设置Menu菜单的字体大小-->
+        <item name="android:textSize">18sp</item>
+        <!-- 设置Menu菜单的字体色-->
+        <item name="android:textColorPrimary">@android:color/background_dark</item>
+        <!-- 设置Menu菜单的背景色-->
+        <item name="android:itemBackground">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Design.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowMenuButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyToolbarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--设置menu菜单不遮挡toolbar-->
+        <item name="actionOverflowMenuStyle">@style/MyOverflowMenuStyle</item>
+        <!--配置Menu的图标-->
+        <item name="actionOverflowButtonStyle">@style/MyOverflowMenuButtonStyle</item>
+    </style>
+
+    <style name="MyOverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="MyOverflowMenuButtonStyle" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/nearby_select_bg_s</item>
+    </style>
+
+    <style name="MyToolBarPopupMenuStytle" parent="Widget.AppCompat.Light.PopupMenu">
+        <!--<item name="android:drawableLeft">@android:drawable/ic_input_add</item>-->
+        <!-- 设置Menu菜单的字体大小-->
+        <item name="android:textSize">18sp</item>
+        <!-- 设置Menu菜单的字体色-->
+        <item name="android:textColorPrimary">@android:color/background_dark</item>
+        <!-- 设置Menu菜单的背景色-->
+        <item name="android:itemBackground">@android:color/white</item>
+    </style>
+
+    <style name="MyTextSize">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+</resources>

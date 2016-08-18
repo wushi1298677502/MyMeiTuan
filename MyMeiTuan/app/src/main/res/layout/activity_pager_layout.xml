@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green2">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/adapter_dot_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/adapter_imageview1"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:src="@drawable/page"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            />
+        <ImageView
+            android:id="@+id/adapter_imageview2"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_toRightOf="@id/adapter_imageview1"
+            android:clickable="true"
+            android:src="@drawable/page_now"/>
+        <ImageView
+            android:id="@+id/adapter_imageview3"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_toRightOf="@id/adapter_imageview2"
+            android:clickable="true"
+            android:src="@drawable/page_now"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/my_option_add"
+        android:title="添加"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/my_option_delete"
+        android:title="删除"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/my_option_edit"
+        android:title="修改"
+        app:showAsAction="never"
+        android:orderInCategory="100">
+        <menu>
+            <item
+                android:title="添加"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:title="删除"
+                app:showAsAction="ifRoom|withText"/>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/my_option_check"
+        android:title="查找"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="always"
+        android:orderInCategory="100"/>
+</menu>

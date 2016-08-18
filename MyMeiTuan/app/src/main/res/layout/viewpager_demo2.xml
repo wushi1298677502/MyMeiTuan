@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:background="@color/yellow1"
+    android:id="@+id/demo2_viewpager">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/gridview2_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_category_1"/>
+        <TextView
+            android:id="@+id/gridview2_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="盐市口茂业..."
+            android:textColor="@color/gray2"
+            android:textSize="10sp"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:id="@+id/gridview2_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray2"
+            android:text="离我最近"
+            android:textSize="7sp"
+            android:padding="2dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="23dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+
+    >
+    <RelativeLayout
+        android:id="@+id/demo_imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/meituan_image2">
+        <ImageView
+            android:id="@+id/demo_imageview_root"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_label_deal_second"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/demo_textviewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="港台美食汇"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/demo_imageview"/>
+    <TextView
+        android:id="@+id/demo_textviewcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="【content】hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+        android:textSize="14sp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_toRightOf="@id/demo_imageview"
+        android:layout_below="@id/demo_textviewtitle"/>
+    <TextView
+        android:id="@+id/demo_textviewcontent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cont"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:textColor="@color/blue"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/demo_imageview"
+        android:layout_alignBottom="@id/demo_imageview"/>
+    <TextView
+        android:id="@+id/demo_textviewcontent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gak"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/demo_textviewcontent2"
+        android:layout_alignBottom="@id/demo_imageview"/>
+    <TextView
+        android:id="@+id/demo_textviewcontent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contenth"
+        android:textSize="12sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/demo_imageview"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:padding="2dp"
+    android:background="@color/blue2"
+   >
+        <LinearLayout
+            android:id="@+id/viewpager_linearlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="购物商场"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="6dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部商场7家"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp" />
+      <ScrollView
+          android:id="@+id/viewpager_scrollview"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="45dp"
+          android:background="@color/gray1">
+              <HorizontalScrollView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:scrollbars="horizontal">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/green2"
+                          android:id="@+id/demo1_viewpager">
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text1"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text2"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/gray1" >
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview2"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text12"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text22"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/gray1" >
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview3"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text13"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text23"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/gray1" >
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview4"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text14"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text24"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/gray1" >
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview5"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text15"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text25"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/gray1" >
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview6"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text16"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text26"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:orientation="vertical"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingBottom="5dp"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          android:paddingTop="5dp"
+                          android:background="@color/gray1" >
+                              <FrameLayout
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  >
+                                      <ImageView
+                                          android:id="@+id/gridview2_imageview7"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:src="@drawable/ic_category_1"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text17"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:text="盐市口茂业..."
+                                          android:textColor="@color/gray2"
+                                          android:textSize="10sp"
+                                          android:paddingTop="15dp"
+                                          android:paddingLeft="15dp"/>
+                                      <TextView
+                                          android:id="@+id/gridview2_text27"
+                                          android:layout_width="wrap_content"
+                                          android:layout_height="wrap_content"
+                                          android:background="@color/gray2"
+                                          android:text="离我最近"
+                                          android:textSize="7sp"
+                                          android:padding="2dp"
+                                          android:layout_marginTop="30dp"
+                                          android:layout_marginLeft="23dp"/>
+
+                              </FrameLayout>
+
+                      </LinearLayout>
+
+
+
+
+              </LinearLayout>
+
+              </HorizontalScrollView>
+      </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="allmerchant">
+
+
+
+        <item>电影</item>
+
+        <item>美食</item>
+
+        <item>摄影写真</item>
+
+        <item>酒店</item>
+
+        <item>休闲娱乐</item>
+
+        <item>汽车服务</item>
+
+        <item>生活服务</item>
+
+        <item>丽人</item>
+
+    </array>
+    <array name="allcity">
+
+        <item>全城</item>
+
+        <item>附近</item>
+
+        <item>推荐商圈</item>
+
+        <item>新津县</item>
+
+        <item>锦江区</item>
+
+        <item>金牛区</item>
+
+        <item>龙泉驿</item>
+
+        <item>武侯区</item>
+
+        <item>青白江</item>
+
+    </array>
+    <array name="smartlist">
+
+        <item>智能排序</item>
+
+        <item>好评优先</item>
+
+        <item>离我最近</item>
+
+        <item>人均最低</item>
+
+
+
+    </array>
+
+
+</resources>

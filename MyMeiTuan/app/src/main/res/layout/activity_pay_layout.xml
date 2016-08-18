@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/gray1" >
+    <ImageView
+        android:id="@+id/pay_imageview"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/travel__ic_category_aerial"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/pay_textviewtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="12sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/pay_imageview"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

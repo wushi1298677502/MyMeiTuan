@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="3dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/shangjia_relativelayout_one"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/shangjia_relativelayout_one_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/meituan_image1"
+            android:scaleType="centerCrop"/>
+    </RelativeLayout>
+
+
+               <TextView
+                   android:id="@+id/linearlayout_one_textview"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_toRightOf="@id/shangjia_relativelayout_one"
+                   android:layout_marginTop="5dp"
+                   android:text="院级才出现（线路）"
+                   android:textSize="12sp"/>
+               <ImageView
+                   android:id="@+id/linearlayout_one_image_one"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@id/linearlayout_one_textview"
+                   android:src="@drawable/ic_global_list_lable_groupon"/>
+               <ImageView
+                   android:id="@+id/linearlayout_one_image_two"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@id/linearlayout_one_image_one"
+                   android:src="@drawable/ic_global_list_lable_queue"/>
+               <ImageView
+                   android:id="@+id/linearlayout_one_image_three"
+                   android:layout_width="15dp"
+                   android:layout_height="15dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_toRightOf="@id/linearlayout_one_image_two"
+                   android:src="@drawable/ic_global_list_lable_voucher"/>
+
+
+                <ImageView
+                    android:id="@+id/linearlayout_two_image_one"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_toRightOf="@id/shangjia_relativelayout_one"
+                    android:layout_below="@id/linearlayout_one_image_one"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/movie_detail_score_start_all"/>
+                <ImageView
+                    android:id="@+id/linearlayout_two_image_two"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_toRightOf="@id/linearlayout_two_image_one"
+                    android:layout_below="@id/linearlayout_one_image_one"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/movie_detail_score_start_all"/>
+                <ImageView
+                    android:id="@+id/linearlayout_two_image_three"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_toRightOf="@id/linearlayout_two_image_two"
+                    android:layout_below="@id/linearlayout_one_image_one"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/movie_detail_score_start_all"/>
+                <ImageView
+                    android:id="@+id/linearlayout_two_image_four"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_toRightOf="@id/linearlayout_two_image_three"
+                    android:layout_below="@id/linearlayout_one_image_one"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/movie_detail_score_start_all"/>
+                <ImageView
+                    android:id="@+id/linearlayout_two_image_five"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_toRightOf="@id/linearlayout_two_image_four"
+                    android:layout_below="@id/linearlayout_one_image_one"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/movie_detail_score_start_all"/>
+                <TextView
+                    android:id="@+id/linearlayout_two_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/linearlayout_two_image_five"
+                    android:layout_below="@id/linearlayout_one_image_one"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1500人评价"
+                    android:textSize="12sp"/>
+
+
+            <TextView
+                android:id="@+id/textview_one"
+                android:layout_below="@id/linearlayout_one_textview"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="99元起"
+                android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/textview_two"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="88元起"
+            android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/linearlayout_three_textview_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/shangjia_relativelayout_one"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:text="1500人评价"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/linearlayout_three_textview_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/linearlayout_three_textview_one"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:text="1500人评价"
+                android:textSize="12sp"/>
+
+
+
+
+    </RelativeLayout>
